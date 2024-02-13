@@ -1,0 +1,1 @@
+Insert into test.{{table_name}}({{columns}})values {{values}};

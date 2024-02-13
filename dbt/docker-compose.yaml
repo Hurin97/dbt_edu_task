@@ -1,0 +1,10 @@
+services:
+  dbt:
+    image: dbt:1.0
+    container_name: dbt
+    build: .
+    ports:
+      - 8086:8086
+    volumes:
+      - ./project:/usr/app/project
+      - ./dbt-profiles:/root/.dbt

@@ -1,0 +1,6 @@
+py-postgresql==1.2.2
+PyYAML==6.0.1
+requests==2.31.0
+airflow-dbt==0.4.0
+dbt-core==1.7.7
+dbt-postgres==1.7.7
